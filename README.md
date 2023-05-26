@@ -237,3 +237,5 @@ pip install mpi4py
 > [huggingface/peft: 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. (github.com)](https://github.com/huggingface/peft)
 >
 > https://github.com/LianjiaTech/BELLE/
+>
+> https://github.com/ymcui/Chinese-LLaMA-Alpaca/
