@@ -52,7 +52,7 @@ class NerCollate:
             labels = prompt_label + response_label
             # add eos at every end of assistant sentence
             input_ids += [self.tokenizer.eos_token_id] # make sure eos_token_id is correct
-            labels += [IGNORE_INDEX]
+            labels += [self.tokenizer.eos_token_id]
             
             # print(input_ids)
             # print(labels)
